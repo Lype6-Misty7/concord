@@ -1,0 +1,16 @@
+{
+  "name": "discord-clone-monorepo",
+  "private": true,
+  "packageManager": "npm@11.20.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0"
+  }
+}
